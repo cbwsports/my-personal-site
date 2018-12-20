@@ -4,6 +4,7 @@ import { ContentModule } from './content/content.module'
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
+import { NavigationComponent} from './navigation/navigation.component';
 //import { ContentComponent } from './content/content.component';
 import { FooterComponent } from './footer/footer.component';
 
@@ -11,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
   declarations: [
             AppComponent,
             HeaderComponent,
+            NavigationComponent,
             //ContentComponent,
             FooterComponent
   				],

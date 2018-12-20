@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 
 import { HeaderComponent } from './header/header.component'
-import { ContentComponent } from './content/content.component'
+import { NavigationComponent } from './navigation/navigation.component'
+//import { ContentComponent } from './content/content.component'
 import { FooterComponent } from './footer/footer.component'
 
 @Component({
@@ -10,5 +11,5 @@ import { FooterComponent } from './footer/footer.component'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-personal-site';
+
 }
