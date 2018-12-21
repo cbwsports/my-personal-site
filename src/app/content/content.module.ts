@@ -11,11 +11,13 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 
 const appRoutes: Routes = [
-            { path: 'bio', component: BioComponent},
-            { path: 'skills', component: SkillsComponent},
+            { path: '', redirectTo: 'home', pathMatch: 'full' },
+            { path: 'home', component: HomeComponent},
+            { path: 'bio', component: BioComponent },
+            { path: 'skills', component: SkillsComponent },
             { path: 'experience', component: ExperienceComponent },
-            { path: 'testimonials', component: TestimonialsComponent},
-            { path: 'contact', component: ContactComponent},
+            { path: 'testimonials', component: TestimonialsComponent },
+            { path: 'contact', component: ContactComponent },
             //{ path: '**', component: PageNotFoundComponent}
 ]
 
