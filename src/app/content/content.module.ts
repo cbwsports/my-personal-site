@@ -8,6 +8,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ContactComponent } from './contact/contact.component';
+import { HomeComponent } from './home/home.component';
 
 const appRoutes: Routes = [
             { path: 'bio', component: BioComponent},
@@ -25,7 +26,8 @@ const appRoutes: Routes = [
             SkillsComponent,
             ExperienceComponent,
             TestimonialsComponent,
-            ContactComponent
+            ContactComponent,
+            HomeComponent
   				],
   imports: [
     RouterModule.forRoot(appRoutes),
