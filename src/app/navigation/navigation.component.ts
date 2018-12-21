@@ -10,6 +10,6 @@ export class NavigationComponent {
 	navBar: Array<string>;
 
 	constructor(){
-		this.navBar = ['Bio', 'Skills', 'Expereince', 'Testimonials', 'Contact'];
+		this.navBar = ['Bio', 'Skills', 'Experience', 'Testimonials', 'Contact'];
 	}
 }
